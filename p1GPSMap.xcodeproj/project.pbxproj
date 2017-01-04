@@ -14,6 +14,7 @@
 		0B216CAB1E1D6B5900B76AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B216CA91E1D6B5900B76AB1 /* LaunchScreen.storyboard */; };
 		0B216CB61E1D6B5900B76AB1 /* p1GPSMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B216CB51E1D6B5900B76AB1 /* p1GPSMapTests.swift */; };
 		0B216CC11E1D6B5900B76AB1 /* p1GPSMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B216CC01E1D6B5900B76AB1 /* p1GPSMapUITests.swift */; };
+		0B216CD01E1D6B9900B76AB1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B216CCF1E1D6B9900B76AB1 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0B216CBC1E1D6B5900B76AB1 /* p1GPSMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = p1GPSMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B216CC01E1D6B5900B76AB1 /* p1GPSMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = p1GPSMapUITests.swift; sourceTree = "<group>"; };
 		0B216CC21E1D6B5900B76AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B216CCF1E1D6B9900B76AB1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B216CD01E1D6B9900B76AB1 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				0B216CB41E1D6B5900B76AB1 /* p1GPSMapTests */,
 				0B216CBF1E1D6B5900B76AB1 /* p1GPSMapUITests */,
 				0B216C9E1E1D6B5900B76AB1 /* Products */,
+				0B216CCE1E1D6B9900B76AB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				0B216CC21E1D6B5900B76AB1 /* Info.plist */,
 			);
 			path = p1GPSMapUITests;
+			sourceTree = "<group>";
+		};
+		0B216CCE1E1D6B9900B76AB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B216CCF1E1D6B9900B76AB1 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +206,11 @@
 					0B216C9C1E1D6B5900B76AB1 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					0B216CB01E1D6B5900B76AB1 = {
 						CreatedOnToolsVersion = 8.2.1;

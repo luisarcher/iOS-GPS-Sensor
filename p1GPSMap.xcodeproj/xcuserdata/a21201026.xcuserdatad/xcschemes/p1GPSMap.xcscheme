@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0B216C9C1E1D6B5900B76AB1"
+               BuildableName = "p1GPSMap.app"
+               BlueprintName = "p1GPSMap"
+               ReferencedContainer = "container:p1GPSMap.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0B216CB01E1D6B5900B76AB1"
+               BuildableName = "p1GPSMapTests.xctest"
+               BlueprintName = "p1GPSMapTests"
+               ReferencedContainer = "container:p1GPSMap.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0B216CBB1E1D6B5900B76AB1"
+               BuildableName = "p1GPSMapUITests.xctest"
+               BlueprintName = "p1GPSMapUITests"
+               ReferencedContainer = "container:p1GPSMap.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0B216C9C1E1D6B5900B76AB1"
+            BuildableName = "p1GPSMap.app"
+            BlueprintName = "p1GPSMap"
+            ReferencedContainer = "container:p1GPSMap.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0B216C9C1E1D6B5900B76AB1"
+            BuildableName = "p1GPSMap.app"
+            BlueprintName = "p1GPSMap"
+            ReferencedContainer = "container:p1GPSMap.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0B216C9C1E1D6B5900B76AB1"
+            BuildableName = "p1GPSMap.app"
+            BlueprintName = "p1GPSMap"
+            ReferencedContainer = "container:p1GPSMap.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
